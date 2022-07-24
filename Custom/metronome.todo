@@ -1,0 +1,23 @@
+# Feuille de note pour la réalisation du script metronome
+
+Qu'est-ce que je veux ?
+
+Un interrupteur qui permet d'allumer ou éteindre le métronome.
+Un afficheur qui m'affiche la valeur du tempo.
+Différentes led qui clignotent en rythme.
+Un potentiomètre qui permet de régler la valeur du tempo.
+
+Questions:
+    ☐ Le programme doit tourner en permanence comme le bot ? > service
+    ☐ Dans le script faire en sorte qu'il travaille un minimum pendant qu'il est on
+    ☐ Dans le script aucun travail d'aucun composant quand il est off
+
+
+A faire:
+    ☐ Mécanisme de on off avec bouton poussoir (cf tutoriel)
+    ☐ Prise en main bibliotèque time? pour faire clignoter la led en rythme (50% du cycle on, 50% off)
+    ☐ Prise en main thread pour avoir la même chose avec un cycle 33%
+    ☐ Tester le mieux entre des flashs (quelle durée ?) et des alternances on puis off
+    ☐ Prise en main afficheur pour afficher la valeur de la variable tempo
+    ☐ Prise en main potentiomètre pour rendre variable la valeur du tempo
+    ☐ Faire le service pour avoir le script constamment en route
